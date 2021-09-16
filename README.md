@@ -10,6 +10,8 @@ Made by @E-Coders using these Technologies -<br>
 > Google Fonts<br>
 > Boxicons<br>
 
+
+                                                                 20 Times More and More Powerful
 This site was currently under constroduction. but We've done making site, we'll add more products in the future.<br>
 This is an Business site. Our company is also Registered so you are not able to edit this site.<br>Made by @E-Coders<br>
 Will be "lexkingproducts.com" in the Future. <br>This time, you can visit out our main site: https://lexkingindia.com<br>
