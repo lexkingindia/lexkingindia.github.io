@@ -1,4 +1,4 @@
-# LexkingOficial.github.io
+# Lexking Official
 Our Official Site.<br>
 This was Made by @E-Coders For some works.<br>
 We didn't need features or anything to this site. Editing this site is currently disabled for everyone.<br>
