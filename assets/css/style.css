@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .back-to-top:hover {
-  background: #ee7843;
+  background: #9e3e13;
   color: #fff;
 }
 
@@ -1372,6 +1372,7 @@ section {
   display: block;
 }
 
+/* Buy on Amazon Button */
 .buya {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -1393,6 +1394,7 @@ section {
   background: #722400;
 }
 
+/* Buy on Meesho Button [ Removed By Some Reasons. ] */
 .buym {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
