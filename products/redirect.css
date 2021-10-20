@@ -63,6 +63,7 @@ a:hover > .na{
 }
 .na{
     text-decoration-line: line-through;
+    cursor: not-allowed;
     color: #ff2200;
     transition: 0.11s;
 }
