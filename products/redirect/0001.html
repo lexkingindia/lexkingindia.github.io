@@ -19,17 +19,17 @@
       <!-- Servers -->
       <div class="server">
         <a id="site">👉 
-          <span class="txt">LexkingIndia.com</span>
+          <span class="txt" id="o">LexkingIndia.com</span>
         </a>
       </div>
       <div class="server">
         <a id="amazon">👉 
-          <span class="na">Amazon <i>[ NOT AVAILABLE ]</i></span>
+          <span class="txt" id="a">Amazon</span>
         </a>
       </div>
       <div class="server">
         <a id="flipkart">👉 
-          <span class="na">Flipkart <i>[ NOT AVAILABLE ]</i></span>
+          <span class="txt" id="f">Flipkart</span>
         </a>
       </div>
     </div>
@@ -63,6 +63,25 @@
 
       // Set Category
       document.getElementById('category').textContent = productCategory;
+      
+      let o = document.getElementById("o");
+      let a = document.getElementById("a");
+      let f = document.getElementById("f");
+      if(productLinks[0] === ""){      
+        o.classList.remove("txt");
+        o.classList.add("na");
+        o.innerHTML +=" <i>[ NOT AVAILABLE ]</i>";
+      }
+      if(productLinks[1] === ""){
+        a.classList.remove("txt");
+        a.classList.add("na");
+        a.innerHTML +=" <i>[ NOT AVAILABLE ]</i>";
+      }
+      if(productLinks[2] === ""){
+        f.classList.remove("txt");
+        f.classList.add("na");
+        f.innerHTML +=" <i>[ NOT AVAILABLE ]</i>";
+      }
     </script>
   </body> 
 </html>
