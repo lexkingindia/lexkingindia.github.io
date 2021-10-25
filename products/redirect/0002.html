@@ -1,88 +1,90 @@
 <!-- Toilet Cleaner Blue 650 ML -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Choose a server to buy Lexking Product - Lexking India</title>
-    <link rel="stylesheet" type="text/css" href="../redirect.css">
-  </head>
-  <body>
-    <div class="container">
-      <a href="https://lexkingindia.com">
-        <img class="logo" src="../lexking.png" alt="Lexking India [ LOGO ]">
+
+<head>
+  <title>Choose a server to buy Lexking Product - Lexking India</title>
+  <link rel="stylesheet" type="text/css" href="../redirect.css">
+</head>
+
+<body>
+  <div class="container">
+    <a href="https://lexkingindia.com">
+      <img class="logo" src="../lexking.png" alt="Lexking India [ LOGO ]">
+    </a>
+    <p class="category">
+      <b>disinfectant <span id="category"></span> cleaner</b>
+    </p>
+    <div id="product"></div>
+    <h3>Choose one server to load this Lexking Product to buy.</h3>
+
+    <!-- Servers -->
+    <div class="server">
+      <a id="site">👉
+        <span class="txt" id="o">LexkingIndia.com</span>
       </a>
-      <p class="category">
-        <b>disinfectant <span id="category"></span> cleaner</b>
-      </p>
-      <div id="product"></div>
-      <h3>Choose one server to load this Lexking Product to buy.</h3>
-
-      <!-- Servers -->
-      <div class="server">
-        <a id="site">👉 
-          <span class="txt" id="o">LexkingIndia.com</span>
-        </a>
-      </div>
-      <div class="server">
-        <a id="amazon">👉 
-          <span class="txt" id="a">Amazon</span>
-        </a>
-      </div>
-      <div class="server">
-        <a id="flipkart">👉 
-          <span class="txt" id="f">Flipkart</span>
-        </a>
-      </div>
     </div>
+    <div class="server">
+      <a id="amazon">👉
+        <span class="txt" id="a">Amazon</span>
+      </a>
+    </div>
+    <div class="server">
+      <a id="flipkart">👉
+        <span class="txt" id="f">Flipkart</span>
+      </a>
+    </div>
+  </div>
 
-
-    <script type="text/javascript">
-      // Product Info
-      const productName = "Toilet Cleaner Blue 650 ML";
-      const productLinks = [
+  <script type="text/javascript">
+    // Product Info
+    const productName = "Toilet Cleaner Blue 650 ML";
+    const productLinks = [
       '',
       '',
       ''
-      ];
-      const productCategory = "floor";
+    ];
+    const productCategory = "floor";
 
-      // Set Product Name
-      const product = document.querySelector("#product");
-      const productElem = document.createElement("h2");
-      productElem.textContent = productName;
-      product.appendChild(productElem);
+    // Set Product Name
+    const product = document.querySelector("#product");
+    const productElem = document.createElement("h2");
+    productElem.textContent = productName;
+    product.appendChild(productElem);
 
-      // Product Links - Intitialize Variables
-      const site = document.getElementById('site');
-      const amazon = document.getElementById('amazon');
-      const flipkart = document.getElementById('flipkart');
+    // Product Links - Intitialize Variables
+    const site = document.getElementById('site');
+    const amazon = document.getElementById('amazon');
+    const flipkart = document.getElementById('flipkart');
 
-      // Product Links - Set Links
-      site.setAttribute("href",productLinks[0]);
-      amazon.setAttribute("href",productLinks[1]);
-      flipkart.setAttribute("href",productLinks[2]);
+    // Product Links - Set Links
+    site.setAttribute("href", productLinks[0]);
+    amazon.setAttribute("href", productLinks[1]);
+    flipkart.setAttribute("href", productLinks[2]);
 
-      // Set Category
-      document.getElementById('category').textContent = productCategory;
+    // Set Category
+    document.getElementById('category').textContent = productCategory;
 
-      // Set Not Available status when no links are provided
-      let o = document.getElementById("o");
-      let a = document.getElementById("a");
-      let f = document.getElementById("f");
-      if(productLinks[0] === ""){      
-        o.classList.remove("txt");
-        o.classList.add("na");
-        o.innerHTML +=" <i>[ NOT AVAILABLE ]</i>";
-      }
-      if(productLinks[1] === ""){
-        a.classList.remove("txt");
-        a.classList.add("na");
-        a.innerHTML +=" <i>[ NOT AVAILABLE ]</i>";
-      }
-      if(productLinks[2] === ""){
-        f.classList.remove("txt");
-        f.classList.add("na");
-        f.innerHTML +=" <i>[ NOT AVAILABLE ]</i>";
-      }
-    </script>
-  </body> 
+    // Set Not Available status when no links are provided
+    let o = document.getElementById("o");
+    let a = document.getElementById("a");
+    let f = document.getElementById("f");
+    if (productLinks[0] === "") {
+      o.classList.remove("txt");
+      o.classList.add("na");
+      o.innerHTML += " <i>[ NOT AVAILABLE ]</i>";
+    }
+    if (productLinks[1] === "") {
+      a.classList.remove("txt");
+      a.classList.add("na");
+      a.innerHTML += " <i>[ NOT AVAILABLE ]</i>";
+    }
+    if (productLinks[2] === "") {
+      f.classList.remove("txt");
+      f.classList.add("na");
+      f.innerHTML += " <i>[ NOT AVAILABLE ]</i>";
+    }
+  </script>
+</body>
+
 </html>

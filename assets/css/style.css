@@ -1423,3 +1423,6 @@ section {
 button[disabled]{
   cursor:not-allowed;
 }
+.material-icons-outlined{
+  padding:4px;
+}
