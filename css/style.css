@@ -1423,3 +1423,6 @@ section {
 button[disabled]{
   cursor:not-allowed;
 }
+.open_in_new{
+  margin: 9px;
+}
